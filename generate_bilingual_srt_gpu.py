@@ -12,7 +12,7 @@ def log(message):
     with open("transcribe.log", "a", encoding="utf-8") as f:
         f.write(f"{timestamp} {message}\n")
 
-# ✅ 加载 Microsoft Translator API 配置
+# ✅ 加载 Translator API 配置
 load_dotenv()
 ENDPOINT = (
     os.getenv("endpoint") or

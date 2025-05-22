@@ -1,0 +1,13 @@
+subprocess
+os
+load_dotenv
+logging
+timedelta
+TextTranslationClient
+AzureKeyCredential
+deepspeech
+numpy
+wave
+whisper
+python-dotenv
+requests
